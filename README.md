@@ -25,8 +25,8 @@ Install the package with:
 ## Usage
 
 The package needs to be configured with your account's publishable and secret
-keys which are available in your [BrillantPay Dashboard][api-keys]. Require it
-with the keys' value:
+keys which are available in your [BrillantPay Dashboard]. Require it with the keys'
+value:
 
 ``` js
 const brillantpay = require('brillantpay')('bp_stest_...');
