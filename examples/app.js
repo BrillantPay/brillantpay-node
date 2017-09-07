@@ -1,7 +1,7 @@
 const apiKey = process.env.PUBLISHABLE_KEY;
 const apiSecret = process.env.SECRET_KEY;
 
-const express = require('express')();
+const app = require('express')();
 const brillantpay = require('brillantpay', apiSecret);
 
 app.get('/', function (req, res) {
