@@ -1,6 +1,6 @@
 {
   "name": "brillantpay",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "BrillantPay Payments API library NodeJS",
   "main": "lib/brillantpay.js",
   "dependencies": {
