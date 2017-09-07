@@ -1,4 +1,4 @@
-0.1.3
+0.1.4
 	- Fixed tests and Travis CI
 
 0.1.1
