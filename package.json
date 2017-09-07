@@ -1,0 +1,45 @@
+{
+  "name": "brillantpay",
+  "version": "0.1.0",
+  "description": "BrillantPay Payments API library NodeJS",
+  "main": "lib/brillantpay.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.0.2",
+    "dotenv": "^2.0.0",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "mocha": "^3.4.2",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "mocha": "mocha --reporter spec",
+    "test": "npm run mocha"
+  },
+  "author": "BrillantPay <support@brillantpay.com> (http://brillantpay.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrillantPay/brillantpay-node.git"
+  },
+  "keywords": [
+    "brillantpay",
+    "payment gateway",
+    "payment processing",
+    "mobile money",
+    "bank wire",
+    "credit cards",
+    "debit cards"
+  ],
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/BrillantPay/brillantpay-node/issues"
+  },
+  "homepage": "https://github.com/BrillantPay/brillantpay-node#readme"
+}
