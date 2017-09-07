@@ -94,4 +94,10 @@ Run a single test suite:
 $ npm run mocha -- test/resources/payment.spec.js
 ```
 
-[api-keys]: https://dashboard.brillantpay.com/settings
+## License
+
+Released under the MIT licence.
+
+Copyright (c) [Brillant Innovations Ltd]
+
+[Brillant Innovations Ltd] (http://brillantinnovations.com)
