@@ -1,7 +1,7 @@
 # BrillantPay Node.js Library
 
 [![Version](https://img.shields.io/npm/v/brillantpay.svg)](https://www.npmjs.org/package/brillantpay)
-[![Build Status](https://travis-ci.org/brillantpay/brillantpay-node.svg?branch=master)](https://travis-ci.org/brillantpay/brillantpay-node)
+[![Build Status](https://travis-ci.org/BrillantPay/brillantpay-node.svg?branch=master)](https://travis-ci.org/BrillantPay/brillantpay-node)
 [![Downloads](https://img.shields.io/npm/dm/brillantpay.svg)](https://www.npmjs.com/package/brillantpay)
 
 The BrillantPay Node library provides convenient access to the BrillantPay API
