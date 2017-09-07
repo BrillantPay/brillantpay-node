@@ -1,3 +1,6 @@
+0.1.2
+	- Fixed tests
+
 0.1.1
     - Updated README file
 

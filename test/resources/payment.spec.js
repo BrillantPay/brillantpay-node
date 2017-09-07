@@ -9,7 +9,7 @@ describe('Payment', function() {
     var vm = this;
     vm.timeout(0);
 
-    describe('#make_payment(confirmation, paymentAccount, paymentCurrency, paymentAmount, paymentDescription, option, service, email, phone, callback)', function() {
+    describe('#make_payment(confirmation, account, currency, amount, description, option, service, email, phone, callback)', function() {
         it('should make payment without error', function(done) {
             if (!config.PAYMENT_ACCOUNT &&
                 !config.PAYMENT_AMOUNT &&

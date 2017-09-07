@@ -29,7 +29,7 @@ var config = {
     PAYER_PHONE: ''
 };
 
-var brillantpay = new BrillantPay(config.key, config.secret);
+var brillantpay = new BrillantPay(config.secret);
 
 module.exports = {
     brillantpay: brillantpay,
