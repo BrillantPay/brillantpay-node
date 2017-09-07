@@ -98,6 +98,4 @@ $ npm run mocha -- test/resources/payment.spec.js
 
 Released under the MIT licence.
 
-Copyright (c) [Brillant Innovations Ltd]
-
-[Brillant Innovations Ltd] (http://brillantinnovations.com)
+Copyright (c) [Brillant Innovations Ltd](http://brillantinnovations.com)
