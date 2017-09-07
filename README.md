@@ -10,7 +10,7 @@ from applications written in server-side JavaScript.
 Please keep in mind that this package is for use with server-side Node that
 uses BrillantPay keys. To maintain compliance and offer ideal user experience,
 always call [brillantpay.js] in all integrations or [checkout.js] in the script
-src attribute of the form when using [BrillantPay Checkout].
+src attribute of the form when using [BrillantPay Checkout](http://docs.brillantpay.com).
 
 ## Documentation
 
@@ -26,7 +26,7 @@ Install the package with:
 
 The package needs to be configured with your account's publishable and secret
 keys which are available in your [BrillantPay Dashboard](http://dashboard.brillantpay.com).
-Require it with the keys' value:
+Require it with the Secret Key value:
 
 ``` js
 const brillantpay = require('brillantpay')('bp_stest_...');
