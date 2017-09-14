@@ -45,8 +45,8 @@ brillantpay.payments.create({
         currency: "KES",
         amount: 500,
         description: "Chiffon blouse",
-        option: "mobile-money",
-        service: "mpesa",
+        option: "MOBILEMONEY",
+        service: "MPESA",
         email: "john.doe@brillantpay.com",
         phone: 254700112233
     })
@@ -93,6 +93,13 @@ Run a single test suite:
 ```bash
 $ npm run mocha -- test/resources/payment.spec.js
 ```
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-awesome-feature)
+3. Commit your changes (git commit -am 'Add some awesome feature')
+4. Push to the branch (git push origin my-awesome-feature)
 
 ## License
 

@@ -2,10 +2,10 @@ const apiKey = process.env.PUBLISHABLE_KEY;
 const apiSecret = process.env.SECRET_KEY;
 
 const app = require('express')();
-const brillantpay = require('brillantpay', apiSecret);
+const brillantpay = require('brillantpay')(apiSecret);
 
 app.get('/', function (req, res) {
-    res.render("index.pug", apiKey);
+    res.render("form.pug", apiKey);
 });
 
 app.post("/payment", function(req, res) {
@@ -15,8 +15,8 @@ app.post("/payment", function(req, res) {
         currency: "KES",
         amount: 500,
         description: "Chiffon blouse",
-        option: "mobile-money",
-        service: "mpesa",
+        option: "MOBILEMONEY",
+        service: "MPESA",
         email: "john.doe@brillantpay.com",
         phone: 254700112233
     })
@@ -25,4 +25,4 @@ app.post("/payment", function(req, res) {
         })
 });
 
-app.listen(3000);
+app.listen(4567);
