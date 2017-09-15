@@ -1,4 +1,4 @@
-0.1.10
+0.1.12
     - Updated payments data (Tonnie)
 
 0.1.5
