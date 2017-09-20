@@ -1,3 +1,6 @@
+0.1.13
+    - Fixed response bug
+
 0.1.12
     - Updated payments data (Tonnie)
 

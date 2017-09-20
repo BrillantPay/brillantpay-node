@@ -2,11 +2,16 @@ const apiKey = process.env.PUBLISHABLE_KEY;
 const apiSecret = process.env.SECRET_KEY;
 
 const app = require("express")() ;
+app.locals = {
+    apiKey: publishableKey,
+    apiSecret: secretKey
+};
+
 const brillantpay = require("brillantpay");
-const transaction = new brillantpay.BrillantPay(apiSecret);
+const client = new brillantpay.BrillantPay(app.locals.apiSecret);
 
 app.get('/', function (req, res) {
-    res.render("form.pug", apiKey);
+    res.render("form.pug");
 });
 
 app.post('/payment', function (req, res) {
