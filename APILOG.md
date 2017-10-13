@@ -1,4 +1,4 @@
-0.1.14
+0.1.15
     - Added card support beta (Tonnie)
 
 0.1.13
@@ -7,7 +7,7 @@
 0.1.12
     - Updated payments data (Tonnie)
 
-0.1.5
+0.1.11
 	- Fixed tests and Travis CI (Dan)
 
 0.1.1

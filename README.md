@@ -44,6 +44,7 @@ then create the actual payment:
 this.data = {
      "confirmation": "HJVHGFT65675",
      "account": 424324324,
+     "bp_token": 'bp_tok_2367tdygywttwetfef'
      "currency": "KES",
      "amount": 500,
      "description": "Chiffon dress",
@@ -55,6 +56,7 @@ this.data = {
 
 transaction.payments(this.data.confirmation,
      this.data.account,
+     this.data.bp_token,
      this.data.currency,
      this.data.amount,
      this.data.description,
