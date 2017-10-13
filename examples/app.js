@@ -1,5 +1,5 @@
-const apiKey = process.env.PUBLISHABLE_KEY;
-const apiSecret = process.env.SECRET_KEY;
+const publishableKey = process.env.PUBLISHABLE_KEY;
+const secretKey = process.env.SECRET_KEY;
 
 const app = require("express")() ;
 app.locals = {
@@ -18,7 +18,8 @@ app.post('/payment', function (req, res) {
 
     this.formData = {
         "confirmation": "HJVHGFT65675",
-        "confirm": 424324324,
+        "account": 424324324,
+        "bp_token": "tftyfwyf76567233dsfd2",
         "currency": "KES",
         "amount": 500,
         "description": "Chiffon dress",
@@ -28,8 +29,9 @@ app.post('/payment', function (req, res) {
         "phone": 254718287827
     };
 
-    transaction.payments(this.formData.confirmation,
-        this.formData.confirm,
+    client.payments(this.formData.confirmation,
+        this.formData.account,
+        this.formData.bp_token,
         this.formData.currency,
         this.formData.amount,
         this.formData.description,

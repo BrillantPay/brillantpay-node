@@ -9,10 +9,11 @@ describe('Payment', function() {
     var vm = this;
     vm.timeout(0);
 
-    describe('#make_payment(confirmation, account, currency, amount, description, option, service, email, phone, callback)', function() {
+    describe('#make_payment(confirmation, account, bp_token, currency, amount, description, option, service, email, phone, callback)', function() {
         it('should make payment without error', function(done) {
             if (!config.PAYMENT_ACCOUNT &&
                 !config.PAYMENT_AMOUNT &&
+                !config.PAYMENT_CARDTOKEN &&
                 !config.PAYMENT_CURRENCY &&
                 !config.PAYMENT_CONFIRMATION &&
                 !config.PAYMENT_DESCRIPTION &&
@@ -28,6 +29,7 @@ describe('Payment', function() {
             init.brillantpay.payments.create(
                 config.PAYMENT_ACCOUNT,
                 config.PAYMENT_AMOUNT,
+                config.PAYMENT_CARDTOKEN,
                 config.PAYMENT_CURRENCY,
                 config.PAYMENT_CONFIRMATION,
                 config.PAYMENT_DESCRIPTION,

@@ -1,3 +1,6 @@
+0.1.14
+    - Added card support beta (Tonnie)
+
 0.1.13
     - Fixed response bug
 
